@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>pendaftaran</title>
+    <style>
+        body{
+            background-color: gray;
+        }
+        table{
+            background-color: honeydew;
+        }
+    </style>
+  </head>
+  <body>
+    <h1 style="color: honeydew; text-align: center;">Formulir Pendaftaran Squad Mobile Legends</h1>
+    <form style="margin-top: 40px; margin-left: 350px; " action="daftar.html" method="post">
+      <table border="1">
+        <tr align="left">
+          <td>Nama Lengkap</td>
+          <td>:</td>
+          <td><input type="text" name="Nama_Lengkap" size="50"></td>
+        </tr>
+        <tr align="left">
+          <td>ID</td>
+          <td>:</td>
+          <td>
+            <input type="text" name="ID" size="50">
+            </td>
+            <tr align="left">
+              <td>Nick Name</td>
+              <td>:</td>
+              <td>
+                <input type="text" name="Nick_Name" size="50">
+                </td>
+        </tr>
+        <tr align="left">
+          <td>Jenis Kelamin</td>
+          <td>:</td>
+          <td><input type="radio" name="Jenis_Kelamin" value="laki-laki">Laki-Laki
+              <input type="radio" name="jenis_Kelamin" value="perempuan">Perempuan</td>
+        </tr>
+        <tr align="left">
+          <td>Alamat</td>
+          <td>:</td>
+          <td><input type="text" name="alamat" size="60"></td>
+        </tr>
+        <tr align="left">
+          <td>Whatsapp</td>
+          <td>:</td>
+          <td><input type="text" name="kodepos" size="10" maxlength="5"></td>
+        </tr>
+        <tr align="left">
+          <td>Rank Tertinggi</td>
+          <td>:</td>
+          <td><input type="radio" name="Rank_Tertinggi" value="smp">Epic
+              <input type="radio" name="Rank_Tertinggi" value="sma">Legend
+              <input type="radio" name="Rank_Tertinggi" value="d3">Mythic</td>
+        </tr>
+        <tr align="left">
+          <td>Region</td>
+          <td>:</td>
+          <td><select name="pilihan">
+
+            <option value="0">======================Region======================</option>
+            <option value="jakarta">Jakarta</option>
+            <option value="jawa_Tengah">Jawa Tengah</option>
+            <option value="jawa_Barat">Jawa Barat</option>
+            <option value="jawa_Timur">Jawa Timur</option>
+            <option value="bali">Bali</option>
+            <option value="sumatera">Sumatera</option>
+            <option value="kalimantan">Kalimantan</option>
+            <option value="sulawesi">Sulawesi</option>
+            <option value="maluku">Maluku</option>
+            <option value="aceh">Aceh</option>
+            <option value="yogyakarta">Yogyakarta</option>
+            </select>
+          </td>
+        </tr>
+        <tr align="left">
+          <td>Role</td>
+          <td>:</td>
+          <td>
+            <input type="radio" name="role" value="tank">Tank<br>
+            <input type="radio" name="role" value="fighter">Fighter<br>
+            <input type="radio" name="role" value="assassin">Assassin<br>
+            <input type="radio" name="role" value="marksman">Marksman<br>
+            <input type="radio" name="role" value="mage">Mage<br>
+            <input type="radio" name="role" value="support">Support<br>
+          </td>
+        </tr>
+        <tr align="center">
+          <td colspan="3">
+            <input type="submit" value="Simpan"> <input type="reset" value="Batal">
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
